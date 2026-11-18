@@ -1,5 +1,9 @@
 # photofed_paper
 
+This repository is a slimmed down version of the codebase developed by Hamid Taghipourbibalan and James McCutcheon to analyse a fibre photometry experiment examining dopamine responses under protein restriction. The full paper is available on bioRxiv (https://www.biorxiv.org/content/10.64898/2026.07.31.741998v1). Data are available on Zenodo. Citation and download details follow.
+
+The original repository that includes alternative analysis avenues, temporary binary files etc is available at https://github.com/Htbibalan/photofed_paper.
+
 The figure notebooks in `notebooks/` are the source of truth; edit the
 `.ipynb` files directly.
 

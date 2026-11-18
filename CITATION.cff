@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the preprint below; update to the published article when available."
+title: "Protein restriction amplifies nucleus accumbens dopamine responses to protein-containing food during operant feeding in male mice"
+type: software
+authors:
+  - family-names: Taghipourbibalan
+    given-names: Hamid
+  - family-names: Huijgens
+    given-names: Stefan W
+  - family-names: Volcko
+    given-names: K. Linnea
+  - family-names: McCutcheon
+    given-names: James E.
+repository-code: "https://github.com/mccutcheonlab/photofed-paper"
+license: GPL-3.0-or-later
+keywords:
+  - photometry
+  - operant behavior
+  - food reward
+  - protein restriction
+  - nucleus accumbens
+  - dopamine
+preferred-citation:
+  type: article
+  title: "Protein restriction amplifies nucleus accumbens dopamine responses to protein-containing food during operant feeding in male mice"
+  authors:
+    - family-names: Taghipourbibalan
+      given-names: Hamid
+    - family-names: Huijgens
+      given-names: Stefan W
+    - family-names: Volcko
+      given-names: K. Linnea
+    - family-names: McCutcheon
+      given-names: James E.
+  journal: bioRxiv
+  doi: 10.64898/2026.07.31.741998
+  year: 2026

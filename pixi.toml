@@ -1,0 +1,23 @@
+[workspace]
+authors = ["James McCutcheon <j.mccutcheon@uit.no>"]
+channels = ["conda-forge"]
+name = "notebook-project"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=2.2,<3"
+numpy = ">=2.4.3,<3"
+matplotlib = ">=3.10.9,<4"
+seaborn = ">=0.13.2,<0.14"
+scipy = ">=1.17,<2"
+ipykernel = ">=6.29,<7"
+jupyter = ">=1.1.1,<2"
+dill = ">=0.4.1,<0.5"
+pingouin = ">=0.6.1,<0.7"
+
+[pypi-dependencies]
+trompy = ">=0.16.5, <0.17"
+openpyxl = ">=3.1,<4"
+tdt = ">=0.7.6, <0.8"

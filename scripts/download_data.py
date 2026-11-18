@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 
 from photometry_files import ARCHIVE_NAME, PICKLE_NAMES
 
-RECORD = "21024650"
+RECORD = "24315309"
 ROOT = Path(__file__).resolve().parents[1]
 SEPARATE_FILES = (
     "food_and_body_weight.xlsx",

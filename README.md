@@ -4,9 +4,6 @@ This repository is a slimmed down version of the codebase developed by Hamid Tag
 
 The original repository that includes alternative analysis avenues, temporary binary files etc is available at https://github.com/Htbibalan/photofed_paper.
 
-The figure notebooks in `notebooks/` are the source of truth; edit the
-`.ipynb` files directly.
-
 ## Funding
 
 This work was supported by a Tromsø Research Foundation Starting Grant to J.E. McCutcheon (19-SG-JMcC).
@@ -18,8 +15,6 @@ This work was supported by a Tromsø Research Foundation Starting Grant to J.E. 
    [Zenodo record](https://doi.org/10.5281/zenodo.21024650), as described
    below.
 3. Run `pixi run jupyter lab`, open a figure notebook and run its cells.
-   The notebooks have executed end-to-end; figures and statistics still need
-   author review.
 
 Run the download and helper tests with
 `pixi run python -m unittest discover -s tests -v`.
@@ -49,7 +44,7 @@ The data are available under CC BY 4.0 license as published on Zenodo.
 ## Photometry data
 
 The figure notebooks require processed photometry pickles. The public Zenodo
-record [10.5281/zenodo.21024650](https://doi.org/10.5281/zenodo.21024650)
+record [10.5281/zenodo.21024650](https://doi.org/10.5281/zenodo.24315309)
 contains `photometry_pickles.zip` and the three supplementary inputs. Restore
 all inputs with:
 
@@ -63,12 +58,6 @@ separate inputs into `data/`. It refuses to overwrite existing files. Use
 record ID. The notebooks expect the files in the repository's `data/`
 directory. Only load pickles from a trusted source: unpickling can execute
 arbitrary code.
-
-The original deposit labels the photometry time axis -5 to +10 s, although
-the snipping window actually spans -10 to +20 s. A
-[newer dataset version](https://doi.org/10.5281/zenodo.24315309) includes raw
-TDT tanks and regenerated pickles with the corrected time axis. The downloader
-defaults to the original version; use `--record 24315309` for the newer one.
 
 Additional inputs currently referenced by the notebooks:
 
